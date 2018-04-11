@@ -1,6 +1,6 @@
 // JavaScript Document
 
-$(document).ready(function (e){
+$(document).ready(function(e){
 	document.addEventListener("deviceready",function(){
 		$('#disp table td').eq(3).text(device.model);
 		$('#disp table td').eq(5).text(device.cordova);
@@ -27,5 +27,5 @@ $(document).ready(function (e){
 });//document
 
 function escribehistoria(accion){
-	$('#eHistoria').append('<li>'+accion+'</li>');
+	$('#ehistoria').append('<li>'+accion+'</li>');
 }
